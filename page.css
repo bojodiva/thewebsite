@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Amaranth&family=Montserrat&family=Tiro+Kannada:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amaranth&family=Montserrat&family=Qwitcher+Grypen:wght@700&family=Tiro+Kannada:ital@1&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@
     justify-content: space-around;
     white-space: nowrap;
     /* border: 1px solid red; */
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F01%2F41%2F6e%2F01416ecb8552eea3a94708931f5b1738.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F722194490226347132%2F&tbnid=UpoDDayRqFZUUM&vet=12ahUKEwij0I-6nof5AhUjafEDHXcKCV4QMygEegUIARDRAQ..i&docid=-73GALzZe-T7gM&w=1080&h=2094&q=light%20color%20unisex%20aesthetic%20wallpaper&hl=en&ved=2ahUKEwij0I-6nof5AhUjafEDHXcKCV4QMygEegUIARDRAQ);
+    /* background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F01%2F41%2F6e%2F01416ecb8552eea3a94708931f5b1738.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F722194490226347132%2F&tbnid=UpoDDayRqFZUUM&vet=12ahUKEwij0I-6nof5AhUjafEDHXcKCV4QMygEegUIARDRAQ..i&docid=-73GALzZe-T7gM&w=1080&h=2094&q=light%20color%20unisex%20aesthetic%20wallpaper&hl=en&ved=2ahUKEwij0I-6nof5AhUjafEDHXcKCV4QMygEegUIARDRAQ); */
 }
 
 .name-logo {
@@ -94,13 +97,14 @@ h1 {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: two;
-    font-weight: bold;
-    font-family: 'Amaranth', sans-serif;
+    font-weight: bolder;
+    font-family:'Qwitcher Grypen', cursive;
     white-space: nowrap;
     text-align: center;
     color: steelblue;
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 45px;
+    padding: 15px;
+    margin-top: 0px;
     margin-bottom: 10px;
     background-color: rgb(32, 78, 116);
     /* background-image: url(/project/boho\ wallpaper.jpg); */
@@ -254,7 +258,7 @@ select {
 
 
 .btn-submit:hover {
-    background: rgb(75, 58, 58);
+    background: rgb(19, 18, 18);
 }
 
 .about {
@@ -289,6 +293,8 @@ select {
 color: steelblue;
 text-decoration: none;
 padding: 10px;
+margin-top: 100px;
+margin-bottom: 100px;
 }
 
 .link:hover{
@@ -297,6 +303,8 @@ padding: 10px;
 
 .link2{
     color: steelblue;
+    text-decoration: none;
+    font-style: italic;
 }
 
 .pic3{
@@ -309,6 +317,9 @@ padding: 10px;
 .link3{
    color: steelblue;
    font-size: 25px;
+   font-weight: bold ;
+   font-style: oblique;
+   text-decoration: none;
 }
 .appp {
     margin-top: 120px;
